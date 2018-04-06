@@ -1,0 +1,7 @@
+1.plt.plot(x,y,label="First Chart")
+2.plt.bar(x2,y2,color='#DC143C',label="Bar Chart")
+3.plt.hist(poppulation_age,bins=10,histtype='bar',color='#DC143C',rwidth=0.8)
+4.plt.scatter(x,y,s=200,marker="*",color='#DC143C',label="Scatter")
+5.plt.stackplot(days,sleeping,eating,working,playing,colors=['m','k','r','b'])
+6.plt.pie(slices,labels=activities,colors=cols,startangle=90,shadow= True,explode=(0,0.1,0,0),autopct='%1.1f%%')
+7.x, y = np.loadtxt('example.txt', delimiter=',', unpack=True)
